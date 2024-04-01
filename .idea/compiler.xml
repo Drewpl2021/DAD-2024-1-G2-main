@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ms-config-server" />
         <module name="cliente" />
+        <module name="config-server" />
         <module name="ms-catalogo" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cliente" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="ms-catalogo" options="-parameters" />
       <module name="ms-catalogo (1)" options="-parameters" />
       <module name="ms-config-server" options="-parameters" />
